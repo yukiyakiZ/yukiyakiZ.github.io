@@ -1,0 +1,36 @@
+--- 
+layout: post
+title: "Personal Reminders @ Research Practices"
+categories: [ph.D.]
+comments: true
+---
+
+#### Ideas Out There
+* Origin
+  * Advisor oracle.
+  * [Negation](http://southmovement.alphalink.com.au/commentaries/nofn2.html) of the existing works, principles.
+  * Discussion with peers and others.
+  * Pain or dreams in real-world life. Fundamental and impactful works often get inspirations from the real world complaint that people neglect.
+* Filter of ideas
+  * Do literature review; make sure the idea is valid.
+  * Evaluate, discuss carefully before turning the idea into concrete research problem based on your own flavor.
+* Avoid working on things you don't believe in or consider as something with short shelf-life (e.g., some bubble applications with ML/DL).
+
+#### Use Assisting Materials Well
+* Avoid greedy collection and getting drown in the sea of literature, textbooks, codes. 
+* Master the materials and use them well.
+
+#### Make Progress Daily
+* Decompose the problem into measurable steps. It will help better to diagnose, fallback.
+* Research process is similar to SGD: take a number of baby steps aiming to reach an "optimal" solution. Don't brute force each possible solution without organization. Each step should be driven by the problem or sub-problems. Try to leverage on prior experiences and heuristics (yours, your advisor, collaborators...) to prioritize the most promising solutions and therefore reduce the search space.
+* Avoid blind engineering hack, it is helpful to ground the practices on heuristics, intuitions, theory.
+* Have a task stack for each project containing concrete next steps. Try to pop the task daily.
+* Zoom in and zoom out and crystallize the main line. Adjust the tasks in the stack if needed. Reverse engineering the output target could help decide on the right methodology and path to go.
+* *Have target milestones in mind:* It is better to always target at a stable milestone, i.e., some concrete output in terms of implementation, theoretical justification of an argument, experimental result, rather than wondering before finding the "optimal" optimal solution without giving any visual outputs to be interpreted by others. 
+
+#### Log Down Stable Sub-conclusions
+* Log down the stuff (over Slack, Trello...) in self-organized units. Don't get frustrated with detours, these all would go as part of the discussion in the paper, the most important thing is to conduct each step with thoughts and predictions, instead of blind search.
+
+#### Time Management
+* One could never stress the importance of TM too much. It is the key to getting things done and alleviating stress.
+* Have a centralized calendar which denotes in detail the things you need to deal with along the time axis. It will help give a better overview and gain control of your life.
