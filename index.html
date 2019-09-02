@@ -1,23 +1,25 @@
 ---
-layout: page
+layout: default
 ---
 
 <div id="home">
 
-  <h1>{{ site.title }}</h1>
-
-  ...
-  
+  <h1>Xingyuan Zhao</h1>
   <hr />
-
-  <!-- <ol class="posts">
+  <h2>Education</h2>
+  <ul style="list-style-type:none;">
+      <li><strong>2018-2019</strong> Thesis</li>
+      <li><strong>2018-2019</strong> Research Intern</li>
+      <li><strong>2018-2019</strong> Visiting Student Researcher</li>
+  </ul>
+  <ol class="posts">
     {% for post in paginator.posts %}
       <li><a href="{{ post.url }}">{{ post.title }}</a> &raquo; <i><span>{{ post.date | date_to_string }}</span></i></li>
     {% endfor %}
-  </ol> -->
+  </ol>
 
   <!-- Pagination links -->
-  <!-- {% if paginator.total_pages > 1 %}
+  {% if paginator.total_pages > 1 %}
     <ul class="pagination pagination-sm">
       {% if paginator.previous_page %}
         <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a></li>
@@ -45,5 +47,5 @@ layout: page
         <li class="disabled"><span>&raquo;</span></li>
       {% endif %}
     </ul>
-  {% endif %} -->
+  {% endif %}
 </div><!-- end #home -->
