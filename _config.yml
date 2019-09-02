@@ -1,8 +1,8 @@
-title: Stack Problems
+title: Xingyuan Zhao
 description: My Personal Stack Problems
-author: Agus Makmun
+author: Xingyuan Zhao
 github: https://github.com/agusmakmun
-about: I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django.
+about: I am a first-year master student @ CMU. I am interested in NLP and computational linguistics.
 disqus_shortname: stackproblems
 google_analytics: UA-XXXXXXXX-Y
 
@@ -15,28 +15,28 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
-    - icon: fa-twitter
-      link: "#"
-    - icon: fa-linkedin
-      link: "#"
-    - icon: fa-stack-exchange
-      link: "#"
-    - icon: fa-github
-      link: "https://github.com/agusmakmun"
+    # - icon: fa-facebook
+    #   link: "#"
+    # - icon: fa-twitter
+    #   link: "#"
+    # - icon: fa-linkedin
+    #   link: "#"
+    # - icon: fa-stack-exchange
+    #   link: "#"
+    # - icon: fa-github
+    #   link: "https://github.com/agusmakmun"
 
 share:
   twitter_username: github.io
   fb_appid: 1749788565247320
 
 urls:
-    - text: About Me
-      url: /about/
-    - text: My Projects
-      url: /projects/
-    - text: XML Feed
-      url: /feed.xml
+    # - text: About Me
+    #   url: /about/
+    # - text: My Projects
+    #   url: /projects/
+    # - text: XML Feed
+    #   url: /feed.xml
 
 url: "https://agusmakmun.github.io"
 baseurl: ""

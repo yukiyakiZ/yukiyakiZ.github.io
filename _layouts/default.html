@@ -114,6 +114,7 @@ layout: compress
     <div class="container">
       <div class="col-sm-3">
         <div class="fixed-condition">
+          <img src="{{ site.url }}/me.jpeg" width="250" height="250" alt="My Photo">
           <h1 class="author-name"><a href="/">{{ site.author }}</a></h1>
           {% if site.about %}
             <div class="profile-about">
@@ -127,10 +128,10 @@ layout: compress
               {% endfor %}
             </ul>
           </div>
-          <div class="search" id="js-search">
+          <!-- <div class="search" id="js-search">
             <input type="text" placeholder="(sitemap)~$ type to search" class="search__input form-control" id="js-search__input">
             <ul class="search__results" id="js-search__results"></ul>
-          </div>
+          </div> -->
           <hr />
           <ul class="sidebar-nav">
             <strong>Navigation</strong>
@@ -145,14 +146,14 @@ layout: compress
       <div class="col-sm-8 col-offset-1 main-layout">
         {{ content }}
         <footer>
-          &copy; {{ site.author }}
-          {% if site.github %}
+          &copy; {{ site.author }} 2019
+          <!-- {% if site.github %}
             - <a href="{{ site.github }}">{{ site.github }}</a> - Powered by Jekyll.
-          {% endif %}
-          <div class="btn-github" style="float:right;">
+          {% endif %} -->
+          <!-- <div class="btn-github" style="float:right;">
             <iframe src="https://ghbtns.com/github-btn.html?user=agusmakmun&repo=agusmakmun.github.io&type=star&count=true" frameborder="0" scrolling="0" width="100" height="20px"></iframe>
             <iframe src="https://ghbtns.com/github-btn.html?user=agusmakmun&repo=agusmakmun.github.io&type=fork&count=true" frameborder="0" scrolling="0" width="100" height="20px"></iframe>
-          </div>
+          </div> -->
         </footer>
       </div>
       <!-- end /.col-sm-8 -->
