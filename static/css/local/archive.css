@@ -8,7 +8,7 @@
     left: -2px;
     height: 100%;
     width: 4px;
-    background: rgb(226, 212, 213);
+    background: rgb(235, 221, 222);
   }
   .archive #timeline:after {
     content: "";
@@ -31,7 +31,7 @@
     margin-top: -4px;
     width: 8px;
     height: 8px;
-    background: #9E7A7A;
+    background: rgb(168, 133, 133);
     /* background: #828282; */
     border-radius: 50%;
   }
