@@ -2,41 +2,25 @@
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
 - name: UC Berkeley
-  link: https://netsys.cs.berkeley.edu
-  date: 2018-2019
-  job: Visiting Student Researcher
-
-- name: ETH Zurich
-  link: https://www.sics.se
-  date: 2017-2018
-  job: Research Intern
-
-- name: Swedish Institute of Computer Science
-  link: https://www.sics.se
-  date: 2017-2018
-  job: Research Intern
-
-- name: Ericsson
-  link: https://www.ericsson.com/en
+  link: https://berkeley.edu
   date: 2017
-  job: Software Developer Intern
+  job: Exchange Student
 
-- name: Tsinghua University
-  link: http://www.tsinghua.edu.cn/publish/thu2018en/index.html
-  date: 2017
-  job: Research Intern
-
-- name: KTH
-  link: https://www.kth.se/en
-  date: 2017
-  job: Student Research Assistant
-
-- name: KTH
-  link: https://www.kth.se/en
-  date: 2016-2019
-  job: M.Sc., Wireless Systems (KTH-ZJU 3+2 Joint Program)
-
-- name: Zhejiang University
+- name: The Big Data Intelligent Computing Lab, Zhejiang University
   link: https://www.zju.edu.cn/english/
-  date: 2013-2017
-  job: B.Eng., Automatic Control
+  date: 2017-2018
+  job: Research Intern
+  # name: Two-Stage Label Embedding via Neural Factorization Machines for Multi-label Classification (AAAI2019)
+
+
+- name: Chinese Academy of Sciences
+  link: http://english.ict.cas.cn/
+  date: 2018
+  job: Research Intern
+  # name: Robust Remote Heart Rate Estimation from Face UtilizingSpatial-temporal Attention (IEEE FG2019/Best Poster Presentation Award)
+
+- name: Language and Cognition Lab, Zhejiang University
+  link: https://www.zju.edu.cn/english/
+  date: 2018-2019
+  job: Research Intern
+
