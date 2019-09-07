@@ -124,8 +124,13 @@ layout: compress
           {% if site.about %}
             <div class="profile-about">
               {{ site.about }}
-            </div>
+            </div>         
           {% endif %}
+          {% if site.email %}
+            <div class="profile-about">
+              Email: {{ site.email }}
+            </div>         
+          {% endif %}          
           <div class="social">
             <ul>
               {% for link in site.social %}
