@@ -1,4 +1,8 @@
-- name: leonids
-  descr: "Bacon ipsum dolor sit amet doner meatball jowl short ribs, chicken prosciutto salami frankfurter. Pig drumstick turducken short ribs, brisket meatloaf ham hock shankle andouille corned beef strip steak. Venison ham bresaola strip steak. Pork belly ribeye prosciutto t-bone."
-  image: pong.png
-  github: https://github.com/renyuanz/leonids
+- name: Robust Remote Heart Rate Estimation from Face UtilizingSpatial-temporal Attention
+  descr: IEEE International Conference on Automatic Face and Gesture Recognition, 2019. (Best poster presentation award)
+  image: Poster_FG2019.png
+
+- name: Two-Stage Label Embedding via Neural Factorization Machines for Multi-label Classification
+  descr: AAAI 2019
+  image: multi-label-classification.png
+  
