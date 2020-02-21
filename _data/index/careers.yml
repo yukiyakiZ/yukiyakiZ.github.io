@@ -1,26 +1,41 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
-- name: UC Berkeley
-  link: https://berkeley.edu
-  date: 2017
-  job: Exchange Student
 
-- name: The Big Data Intelligent Computing Lab, Zhejiang University
-  link: https://www.zju.edu.cn/english/
-  date: 2017-2018
-  job: Research Intern
-  name: Two-Stage Label Embedding via Neural Factorization Machines for Multi-label Classification (AAAI2019)
+- name: Language Technologies Institute, Carnegie Mellon University <br> Advisor: 
+  link: http://www.phontron.com/index.php
+  date: 2019-<i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  job: Directed Study
 
 
-- name: Chinese Academy of Sciences
-  link: http://english.ict.cas.cn/
-  date: 2018
-  job: Research Intern
-  name: Robust Remote Heart Rate Estimation from Face UtilizingSpatial-temporal Attention (IEEE FG2019/Best Poster Presentation Award)
 
 - name: Language and Cognition Lab, Zhejiang University
   link: https://www.zju.edu.cn/english/
   date: 2018-2019
   job: Research Intern
 
+
+- name: Language and Cognition Lab, Zhejiang University
+  link: https://www.zju.edu.cn/english/
+  date: 2018-2019
+  job: Research Intern
+
+- name: Chinese Academy of Sciences
+  link: http://english.ict.cas.cn/
+  date: 2018
+  job: Research Intern
+  # name: Robust Remote Heart Rate Estimation from Face UtilizingSpatial-temporal Attention (IEEE FG2019/Best Poster Presentation Award)
+
+
+
+- name: The Big Data Intelligent Computing Lab, Zhejiang University
+  link: https://www.zju.edu.cn/english/
+  date: 2017-2018
+  job: Research Intern
+  # name: Two-Stage Label Embedding via Neural Factorization Machines for Multi-label Classification (AAAI2019)
+
+
+- name: UC Berkeley
+  link: https://berkeley.edu
+  date: 2017
+  job: Exchange Student
