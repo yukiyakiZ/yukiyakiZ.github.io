@@ -6,7 +6,7 @@ layout: default
     <h1>{{ site.title }}</h1>
     <hr/>
     <p>
-        Welcome here! I am Xingyuan, a graduate student of Language Technologies Institute in the School of Computer Science at Carnegie Mellon University. I am fortunately advised by <a href="http://www.phontron.com/index.php">Professor Graham Neubig</a> and <a href="http://www.cs.cmu.edu/~lsl/"> Professor Lori Levin </a>.
+        Welcome here! I am Xingyuan, a graduate student of Language Technologies Institute in the School of Computer Science at Carnegie Mellon University. I am fortunately advised by <a href="http://www.phontron.com/index.php">Professor Graham Neubig</a> and <a href="http://www.cs.cmu.edu/~lsl/"> Professor Lori Levin.</a> Before that, I received my bachelor degree in Translation and Linguistics from Zhejiang University, where I minored in Computer Science.
          <br>
          My research interests span from Computational linguistics to Natural Language Processing. In particular, I am interested in machine learning methods that are linguistically motivated, and the computational approaches that answer the scientific questions of linguistics. My goal is to build natural language processing systems that are more close to human cognition and robust to contextual variation. 
 
@@ -18,30 +18,75 @@ layout: default
 
 <h1><span data-i18n="skills.my_skills">Projects</span></h1>
 <div class="archive">
-  <div>
+        <div>
     <p style="float: left; margin-right:20px">
-        <img src="./static/img/favicon.jpeg" max-height="200px" width="130px">
+        <img src="./static/img/lrec.png" max-height="200px" width="130px">
     </p>
     <p>
-        <b>R00 Title of your project Title of your project Title of your project</b>
-        <br>Xingyuan Zhao*, others. 
-        <br>Some text of your project, it is really a cool project. Some text of your project, it is really a cool project.
-        Some text of your project, it is really a cool project.
-        <br><font color="911A00">ACL '20.</font> <a href="http://aclweb.org/anthology/W19-0116">Paper link.</a>
+        <b>Cross-lingual Contextualized Embeddings Mapping Evaluation (ongoing)</b>
+        <br>
+   Contextualized word embedding outperform static word embeddings in a range of downstream tasks. However, in the dictionary-based word translation task, the typically conducted intrinsic evaluation of word embedding, contextualized word embedding underperforms than the static word embedding. Having only dictionary, researchers could not investigate into the dynamic nature of word embeddings with surrounding words. Thus, we made the first step to contextualize a word translation task. 
+    </p>
+  </div>
+  <br>
+    <div>
+    <p style="float: left; margin-right:20px">
+        <img src="./static/img/mwe.png" max-height="200px" width="130px">
+    </p>
+    <p>
+        <b>Multi-word Expression in Cross-lingual Word Embeddings</b>
+        <br>
+   Existing cross-lingual word embedding studies rely on orthographic words separated by white-space with minimal consideration for multi-word expressions (MWEs). MWEs, combinations of multiple orthographic words behaving as one word, are common in every language, and one word in one language is often translated into an MWE in another. We proposed a method using lexicon-based tokenization of MWEs to improve Cross-lingual word embedding performance.
+    </p>
+  </div>
+  <br>
+      <div>
+    <p style="float: left; margin-right:20px">
+        <img src="./static/img/mwe.png" max-height="200px" width="130px">
+    </p>
+    <p>
+        <b>Multi-word Expression in Cross-lingual Word Embeddings</b>
+        <br>
+   Existing cross-lingual word embedding studies rely on orthographic words separated by white-space with minimal consideration for multi-word expressions (MWEs). MWEs, combinations of multiple orthographic words behaving as one word, are common in every language, and one word in one language is often translated into an MWE in another. We proposed a method using lexicon-based tokenization of MWEs to improve Cross-lingual word embedding performance.
+    </p>
+  </div>
+  <br>
+<div>
+    <p style="float: left; margin-right:20px">
+        <img src="./static/img/hokchia.png" max-height="200px" width="130px">
+    </p>
+    <p>
+        <b>Building and Evaluating Hokchia Language Speech Corpus</b>
+        <br>Languages are dying. The loss of a single language, legendary linguist Kenneth Hale used to say, “is like dropping a bomb on the Louvre.” Hoping to contribute to the protection of endangered language, I build and evaluate a colloquial Hokchia (an endangered language spoken in southern China) corpus of storytelling record about 71 minutes of good quality signal with transcription written in Hanzi.
     </p>
   </div>
   <!-- 每次新的project别忘了换行符号 <br> -->
   <br>
   <div>
     <p style="float: left; margin-right:20px">
-        <img src="./static/img/favicon.jpeg" max-height="200px" width="130px">
+        <img src="./static/img/multi-label-classification.png" max-height="200px" width="130px">
     </p>
     <p>
-        <b>R01 Title of your project Title of your project Title of your project</b>
-        <br>Xingyuan Zhao*, others. 
-        <br>Some text of your project, it is really a cool project. Some text of your project, it is really a cool project.
-        Some text of your project, it is really a cool project.
-        <br><font color="911A00">ACL '20.</font> <a href="http://aclweb.org/anthology/W19-0116">Paper link.</a>
+        <b>Two-Stage Label Embedding via Neural Factorization Machines for Multi-label Classification</b>
+        <br>C. Chen, H. Wang, W. Liu, X. Zhao, T. Hu, G. Chen 
+        <br>Label embedding has been widely used as a method to exploit label dependency with dimension reduction in multi-label classification tasks. However, existing embedding methods intend to extract label correlations directly, and thus they might be easily trapped by complex label hierarchies. To tackle this issue, we propose a novel Two-Stage Label Embedding (TSLE) paradigm that involves Neural Factorization Machine (NFM) to jointly project features and labels into a latent space.
+        <br><font color="911A00">AAAI '19.</font> 
+    </p>
+  </div>
+  <!-- 每次新的project别忘了换行符号 <br> -->
+  <br>
+  <div>
+    <p style="float: left; margin-right:20px">
+        <img src="./static/img/fg.png" max-height="200px" width="130px">
+    </p>
+    <p>
+        <b>Robust  Remote  Heart  Rate  Estimation  from  Face  Utilizing Spatial-temporal  Attention</b>
+        <br>X. Niu*, X. Zhao*, H. Han, A. Das, A. Dantcheva, S. Shan, X. Chen
+        <br> In this work, we propose an end-to-end approach for robust remote heart rate (HR) measurement gleaned from facial videos. 
+        <br><font color="911A00">IEEE FG '19.</font> 
     </p>
   </div>    
 </div>
+
+
+
