@@ -2,10 +2,10 @@
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
 
-- name: Language Technologies Institute, Carnegie Mellon University <br> Advisor: 
+- name: Language Technologies Institute, Carnegie Mellon University
   link: http://www.phontron.com/index.php
   date: 2019-<i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
-  job: Directed Study
+  job: Research Assistant. Advisor ':' Graham Neubig, Lori Leven
 
 
 
