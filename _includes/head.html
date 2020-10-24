@@ -1,0 +1,39 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ " - " | prepend: page.title }}{% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  <!--MATH Jax LATEX-->
+  <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+  </script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+  </script>
+  <script type="text/javascript" async
+    src="https://example.com/mathjax/MathJax.js?config=TeX-AMS_CHTML">
+  </script>  
+
+  <!-- Font-awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Acedemicons icons for google scholar -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+</head>
+
+<!-- Always keep the title and navigation -->
+<div class="page-content">
+  <section class="site-header">
+    <div class="site-title">
+      <a href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">{{ site.title }}</a>
+    </div>
+    <div class="site-nav">
+      <a href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">Home</a> / 
+      <a href="{{ '/#misc' | prepend: site.baseurl | prepend: site.url }}">MISC</a>
+    </div>
+  </section>
+</div>  

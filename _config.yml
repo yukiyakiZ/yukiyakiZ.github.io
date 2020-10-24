@@ -1,57 +1,38 @@
-title: Xingyuan Zhao
-description: My Personal Stack Problems
-author: Xingyuan Zhao
-github: https://github.com/yukiyakiZ
-about: "I am a second-year master student @ CMU. I am interested in NLP and computational linguistics."
-email: "xingyuaz at andrew dot cmu dot edu"
-disqus_shortname: stackproblems
-google_analytics: UA-XXXXXXXX-Y
+title: "Xingyuan Zhao"
+description: "Minimalist Jekyll-based personal academic website with blogs"
+baseurl: ""
+url: ""
+author: "Xingyuan Zhao"
+email: "xingyuan.zhao5@gmail.com"
 
-enableTags: true
-tagarray: []
+# Build settings
+kramdown:
+  input: GFM
+permalink: pretty
 
-collections:
-  project:
-    output: true
-    permalink: /project/:path/
+# Third-party services
+google_analytics:
 
 social:
-    # - icon: fa-facebook
-    #   link: "#"
-    # - icon: fa-twitter
-    #   link: "#"
-    # - icon: fa-linkedin
-    #   link: "#"
-    # - icon: fa-stack-exchange
-    #   link: "#"
-    # - icon: fa-github
-    #   link: "https://github.com/agusmakmun"
+#   # - icon: fa fa-twitter
+#     # link: "https://twitter.com/YuLiangcheng"
+  - icon: fa fa-github
+    link: "https://github.com/yukiyakiZ"
+  - icon: fa fa-envelope
+    link: "mailto:xingyuan.zhao5@gmail.com"
+  # better google scholar icon with Academicons
+#   # - icon: fa fa-google
+#     # link: "https://scholar.google.com/citations?hl=en&user=ZAK8IpYAAAAJ"
+#   - icon: ai ai-google-scholar
+#     link: "https://scholar.google.com/citations?hl=en&user=ZAK8IpYAAAAJ"  
+#   - icon: fa fa-linkedin
+#     link: "https://www.linkedin.com/in/liangcheng-yu-5b1a41a3/"    
+#   - icon: fa fa-file-pdf-o
+#     link: /doc/cv/cv.pdf
+#   - icon: fa fa-key
+#     link: "https://keybase.io/liangcheng_yu?refresh=faf3b#panel-actions-profile"
 
-share:
-  twitter_username: github.io
-  fb_appid: 1749788565247320
+plugins:
+  - jekyll-sitemap
 
-urls:
-    # - text: About Me
-    #   url: /about/
-    # - text: My Projects
-    #   url: /projects/
-    # - text: XML Feed
-    #   url: /feed.xml
-
-url: "https://xingyuanzhao.xyz"
-baseurl: ""
-paginate: 20
-per_page: 20
-paginate_path: "/page/:num/"
-markdown: kramdown
-gems:
-  - jekyll-paginate
-  - jekyll-gist
-
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-  ignore:
-    envs: ['development']
+exclude: [CNAME", "Gemfile", "Makefile"]

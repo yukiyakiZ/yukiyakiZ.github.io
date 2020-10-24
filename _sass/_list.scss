@@ -1,0 +1,98 @@
+.newslist {
+  list-style: none;
+  padding-left:0rem;
+}
+.newsitem {
+  overflow:hidden;
+  margin-left: -1rem;  
+}
+.newsdate {
+  width: $max-width/8;
+  float: left;
+  font-style: italic;
+  color: $news-date-color;
+}
+.newscontent {
+  overflow: hidden;
+  padding-left:.5rem;
+}
+#more {
+  display: none;
+}
+
+
+.generallist {
+  list-style: none;
+  padding-left:0rem;
+}
+.generalitem {
+  overflow:hidden;
+  margin-left: -1rem;  
+}
+
+.explist {
+  list-style: none;
+  padding-left:0rem;
+}
+.expitem {
+  overflow:hidden;
+  margin-left: -1rem;  
+}
+.expitem {
+  overflow:hidden;
+  margin-left: -1rem;  
+}
+.expdate {
+  width: $max-width/6;
+  float: left;
+  font-style: italic;
+  color: $news-date-color;
+}
+.expcontent {
+  overflow: hidden;
+  padding-left:.5rem;
+}
+
+.archive #timeline {
+  position: relative;
+}
+.archive #timeline:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -2px;
+  height: 100%;
+  width: 4px;
+  background: rgb(235, 221, 222);
+}
+.archive #timeline:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.archive .archive-title {
+  position: relative;
+  margin: 0em auto 1em;
+}
+.archive .archive-title .archive-year {
+  margin-left: 1em;
+}
+.archive .archive-title .archive-year:before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-left: -4px;
+  margin-top: -4px;
+  width: 8px;
+  height: 8px;
+  background: rgb(168, 133, 133);
+  /* background: #828282; */
+  border-radius: 50%;
+}
+.archive ul {
+  list-style: none;
+}
+.archive ul li {
+  margin: 0em auto;
+}

@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="home">
+    <div class="blog-sort-switch">
+        <a href="/blog">all</a>
+        {% for tag in site.blogtags %}
+            {% if tag == page.category %}
+                <u><a class="current", href=".">{{ tag }}</a></u>
+            {% else %}
+                <a href="../{{ tag }}">{{ tag }}</a>
+            {% endif %}
+        {% endfor %}
+    </div>    
+    <br>
+    <ul class="post-list">
+        {% for post in site.posts %}
+            {% if post.tags contains page.category %}
+            <li>
+                <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+            </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</section>     
+</div>
